@@ -32,7 +32,8 @@ console.log(`Horario base para día ${dia}: ${horario}:00`);
 
 while (intento < maxIntentos) {
   let ajustar = intento < 2 ? true : false; // Simula que los primeros 2 intentos requieren ajuste
-  if (!ajustar) break;
+  // ajustar adopto el valor true
+  if (!ajustar) break; // Verifica si ajustar es false
   intento++;
   horario++;
   console.log(`Intento ${intento}: Ajustando a ${horario}:00`);
