@@ -5,7 +5,7 @@
  * Si el horario ajustado es menor a 7:00, muestra un mensaje de error. Muestra el horario final.
  */
 
-let dia = 5;
+let dia = 5; // parseInt(prompt("Ingresa un dia de la semana (del 1 al 7)"))
 let horario;
 let intetosMax = 4;
 let intento = 0;
