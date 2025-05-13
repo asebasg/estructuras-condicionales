@@ -5,7 +5,7 @@
  * Muestra el horario final.
  */
 
-let dia = 6;
+let dia = 6; // Dia seleccionado 
 let intento = 0;
 let maxIntentos = 3;
 let horario;
@@ -28,7 +28,7 @@ switch (dia) {
     horario = 0;
 }
 
-console.log(`Horario base para día ${dia}: ${horario}:00`);
+console.log(`Horario base para día ${dia}: ${horario}:00 <3`);
 
 while (intento < maxIntentos) {
   let ajustar = intento < 2 ? true : false; // Simula que los primeros 2 intentos requieren ajuste
